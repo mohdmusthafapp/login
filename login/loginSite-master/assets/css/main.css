@@ -1,0 +1,25 @@
+body {
+  background-color: #eff3f9;
+}
+
+img.logo {
+  max-width: 300px;
+}
+
+body > div.container {
+  margin-top: 20px;
+}
+
+@media (min-width: 1200px) {
+  .container {
+      width: 585px;
+  }
+}
+
+.alert {
+  margin: 20px 0;
+}
+
+.panel {
+  border-radius: 10px;
+}
